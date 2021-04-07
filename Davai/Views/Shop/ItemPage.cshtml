@@ -1,0 +1,26 @@
+﻿@model Davai.Models.ItemList
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+
+<main class="main__container">
+    <div class="item__container">
+        <div class="item__img__container">
+            <img src="@Model.Image" alt="no photo" width="400"/>
+        </div>
+        <div class="item__text">
+            <h2>@Model.Name</h2>
+            <h3>@Model.Desc</h3>
+            <h1>@Model.Price ₽</h1>
+            @if (Model.Count != 0) {
+                <a>
+                    <div class="add__button">ДОБАВИТЬ В КОРЗИНУ</div>
+                </a>
+            }
+            else {
+                <h3>Нет в наличии</h3>
+            }
+        </div>
+    </div>
+</main>

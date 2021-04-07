@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/Content/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Давай! | О нас</title>
+</head>
+<body>
+    <header class="header">
+        <div class="picture__1"></div>
+        <div class="header__navigation">
+            <a class="navigation__button" href="/Main/Index">Главная</a>
+            <a class="navigation__button" href="/Shop/Index">Магазин</a>
+            <a class="navigation__button" href="/Home/Index">О нас</a>
+            <a class="navigation__button" href="/Bag/Index">Корзина</a>
+        </div>
+        @*<div class="picture__logo__title"></div>*@
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+</body>
+</html>

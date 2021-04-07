@@ -1,0 +1,567 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+}
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+h4, h5, h6 {
+    margin: 50px;
+}
+
+.bordered{
+    border: 2px solid black;
+}
+
+
+/* HEADER */
+
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    top: 0px;
+    left: 50%;
+    margin-left: -960px;
+    background: #FFFFFF;
+}
+
+.picture__1 {
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    background: url("../img/picture_1.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.header__navigation {
+    position: absolute;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    color: #000000;
+    top: 45px;
+    left: 380px;
+}
+
+.navigation__button {
+    margin-right: 44px;
+}
+
+.picture__logo__title {
+    width: 360px;
+    height: 137px;
+    margin-left: 1149px;
+    top: 100px;
+    background: url("../img/letsgologotitle.png") center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    width: 1918px;
+    height: 661px;
+    left: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+}
+
+.footer__picture {
+    position: absolute;
+    width: 960px;
+    height: 605px;
+    left: 710px;
+    bottom: -65px;
+    background: url("../img/picture_9.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.footer__lets__go__logo {
+    /*position: absolute;
+    width: 1389px;
+    height: 633px;
+    margin-top: 60px;
+    background: url("../img/letsgologo.jpg") center no-repeat;
+    background-size: cover;*/
+    position: absolute;
+    width: 1899px;
+    height: 772px;
+    right: 562px;
+    bottom: 0px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 801px;
+    line-height: 939px;
+    letter-spacing: -0.15em;
+    opacity: 0.3;
+    /*border: 2px solid #000000;*/
+}
+
+.footer__color {
+    position: absolute;
+    width: 1918px;
+    height: 543px;
+    left: 0px;
+    top: 118px;
+    background: rgba(196, 196, 196, 0.16);
+}
+
+
+
+
+/* PAGES */
+
+.main__container {
+    position: absolute;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    top: 620px;
+}
+
+/* ABOUT US */
+
+.about__us__page__1 {
+    position: absolute;
+    /*width: 1920px;*/
+    height: 1422px;
+    /*left: 0px;*/
+    background: #FFFFFF;
+}
+
+.about__us__page__2 {
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    left: 0px;
+    top: 1422px;
+    background: #FFFFFF;
+}
+
+.about__us__page__3 {
+    position: absolute;
+    width: 1920px;
+    height: 1041px;
+    left: 0px;
+    top: 2662px;
+    background: #FFFFFF;
+}
+.about__us__page__4 {
+    position: absolute;
+    width: 1920px;
+    height: 1004px;
+    left: 0px;
+    top: 3706px;
+    background: #FFFFFF;
+}
+
+.main__page {
+    margin: 0px auto;
+    min-width: 1920px;
+    max-width: 1920px;
+    height: 2043px;
+}
+
+.texttitle1 {
+    position: absolute;
+    width: 926px;
+    height: 59px;
+    left: 380px;
+    top: 15px;
+}
+
+.picture__2 {
+    position: absolute;
+    width: 501px;
+    height: 752px;
+    left: 440px;
+    top: 83px;
+    background: url("../img/picture_2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__3 {
+    position: absolute;
+    width: 1006px;
+    height: 671px;
+    left: 880px;
+    top: 514px;
+    background: url("../img/picture_3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__4 {
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    left: calc(50% - 1920px/2);
+    top: 0px;
+    background: url("../img/picture_4.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__5 {
+    position: absolute;
+    width: 486px;
+    height: 613px;
+    left: 348px;
+    top: 0px;
+    background: url("../img/picture_5.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__6 {
+    position: absolute;
+    width: 634px;
+    height: 381px;
+    right: 506px;
+    top: 432px;
+    background: url("../img/picture_6.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.text__box__1 {
+    position: absolute;
+    width: 400px;
+    height: 165px;
+    left: 1080px;
+    top: 139px;
+}
+
+.text__box__2 {
+    position: absolute;
+    width: 380px;
+    height: 330px;
+    left: 380px;
+    top: 1020px;
+}
+
+.text__box__3 {
+    position: absolute;
+    width: 460px;
+    height: 233px;
+    right: 380px;
+    top: 164px;
+}
+
+.text__box__4 {
+    position: absolute;
+    width: 587px;
+    height: 155px;
+    left: 380px;
+    top: 892px;
+}
+
+.text__box__5 {
+    position: absolute;
+    width: 660px;
+    height: 398px;
+    left: 380px;
+    top: 756px;
+}
+
+/* SHOP */
+
+.shop__container {
+    width: 1920px;
+    height: 2000px;
+    top: 620px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.item__icon {
+    margin: 100px;
+    text-align: center;
+    width: 260px;
+    height: 500px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+/* ITEMPAGE */
+
+.item__container {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    top: 620px;
+}
+
+.item__img__container {
+    position: absolute;
+    left: 540px;
+    top: 120px;
+}
+
+.item__text {
+    position: absolute;
+    width: 600px;
+    height: 1000px;
+    left: 1040px;
+    top: 120px;
+}
+
+.item__text__name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.add__button {
+    display: table-cell;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 65px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PICTURES */
+
+
+.picture__logo1main {
+
+    width: 1157px;
+    height: 746px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background: url("../img/letsgologo1main.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__logo2main {
+    position: absolute;
+    width: 1394px;
+    height: 746px;
+    margin-top: 400px;
+    margin-left: 526px;
+    background: url("../img/letsgologo2main.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.picture__logo__title__for__about__us__page {
+    position: absolute;
+    width: 360px;
+    height: 137px;
+    margin-left: 515px;
+    margin-top: 105px;
+
+
+    background: url("../img/letsgologotitle.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.picture__7 {
+    position: absolute;
+    width: 794px;
+    height: 527px;
+    right: 480px;
+    top: 72px;
+    background: url("../img/picture_7.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__8 {
+    position: absolute;
+    width: 382px;
+    height: 565px;
+    right: 440px;
+    top: 406px;
+    background: url("../img/picture_8.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__logo1 {
+    position: absolute;
+    width: 987px;
+    height: 746px;
+    margin-left: 933px;
+    margin-top: 865px;
+    background: url("../img/letsgologo1.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__logo2 {
+    position: absolute;
+    width: 1920px;
+    height: 746px;
+    margin-top: 1040px;
+    background: url("../img/letsgobiglogo.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.picture__hoodies {
+    position: absolute;
+    width: 260px;
+    height: 415px;
+    margin-left: 365px;
+    margin-top: -50px;
+    background: url("../img/hoodies.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__coaches {
+    position: absolute;
+    width: 260px;
+    height: 415px;
+    margin-left: 675px;
+    margin-top: -50px;
+    background: url("../img/coaches.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__tshirts {
+    position: absolute;
+    width: 260px;
+    height: 415px;
+    margin-left: 985px;
+    margin-top: -50px;
+    background: url("../img/tshirts.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__acsess {
+    position: absolute;
+    width: 260px;
+    height: 415px;
+    margin-left: 1295px;
+    margin-top: -50px;
+    background: url("../img/acsess.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__summer {
+    position: absolute;
+    width: 500px;
+    height: 551px;
+    margin-left: 435px;
+    margin-top: 512px;
+    background: url("../img/summer.png") center no-repeat;
+    background-size: cover;
+}
+
+.picture__autumn {
+    position: absolute;
+    width: 500px;
+    height: 551px;
+    margin-left: 985px;
+    margin-top: 512px;
+    background: url("../img/autumn.png") center no-repeat;
+    background-size: cover;
+}
+
+
+
+/* TEXT */
+.title__text__boxes {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.title__hoodies {
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -85px;
+}
+
+.title__coaches {
+    position: absolute;
+    margin-left: 716px;
+    margin-top: -85px;
+}
+
+.title__tshirts {
+    position: absolute;
+    margin-left: 988px;
+    margin-top: -85px;
+}
+
+.title__acsess {
+    position: absolute;
+    margin-left: 1275px;
+    margin-top: -85px;
+}
+
+.title__summer {
+    position: absolute;
+    margin-left: 627px;
+    margin-top: 478px;
+}
+
+.title__autumn {
+    position: absolute;
+    margin-left: 1149px;
+    margin-top: 478px;
+}
+
+

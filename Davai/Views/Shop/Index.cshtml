@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Davai.Models.ItemList>
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+
+<main class="main__container">
+    <div class="shop__container">
+        @foreach (var item in Model) {
+            <div class="item__icon">
+                
+                <a href="@Url.Action("ItemPage", "Shop", new { itemlist_id = item.Id })">
+                    <div class="item__picture"></div>
+                    <img src="@item.Image" alt="no photo" width="260" />
+                    <h3>@item.Name</h3>
+                    <h2>@item.Price</h2>
+                </a>
+            </div>
+        }
+    </div>
+</main>
+@*href="@Url.Action("ItemPage", "Shop", new { item_id = item.Id })"*@
